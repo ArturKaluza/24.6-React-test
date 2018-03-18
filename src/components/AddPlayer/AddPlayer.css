@@ -1,0 +1,39 @@
+.AddPlayer {
+    margin-top: 10px;
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+}
+
+.AddPlayer__input {
+    width: 240px;
+    height: 35px;
+    line-height: 35px;
+    padding: 3px;
+    font-size: 20px;
+    border: 2px solid #5D6E82;
+    border-right: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+
+}
+
+.AddPlayer__input:focus {
+    background: #FFF3AA;
+}
+
+.AddPlayer__submit {
+    width: 60px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 20px;
+    background: #6CB359;
+    border: 2px solid #5D6E82;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    transition: .3s ease;
+}
+
+.AddPlayer__submit:hover {
+    background: #0F4800;
+    color: #f4f4f4;
+}

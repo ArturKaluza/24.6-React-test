@@ -1,0 +1,55 @@
+.Player {
+    width: 360px;
+    margin-top: 4px;
+    display: flex;
+    background: #5D6E82;
+    padding: 3px;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.Player:last-of-type {
+    margin-bottom: 5px;
+}
+
+.Player__name {
+   width: 220px;
+}
+
+.Score {
+    display: flex;
+    line-height: 30px
+}
+
+.Player__score {
+    display: block;
+    text-align: center;
+    width: 20px;
+}
+
+.Player__button {
+    height: 100%;
+    width: 30px;
+    font-size: 25px;
+    border: 1px solid black;
+    border-radius: 3px;
+    background: #072F5C;
+    color: #fff;
+    transition: .2s ease;
+}
+
+.Player__button:hover {
+    background: #163C66;
+}
+
+.delete {
+    background: firebrick;
+    margin-left: 25px;
+}
+
+.delete:hover {
+    background: red;
+    color: black;
+}

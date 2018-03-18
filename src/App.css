@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&subset=latin-ext');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+.App {
+    height: 100vh;
+    background: #435C78;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container {
+    width: 400px;
+    min-height: 400px;
+    margin-top: 12vh;
+    background: #163C66;
+    border: 3px black solid;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;    
+    justify-content: flex-start;
+    align-items: center;
+    
+}
